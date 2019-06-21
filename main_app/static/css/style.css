@@ -1,0 +1,40 @@
+body {
+    text-align: center;
+    margin: 2rem;
+    font-family: Helvetica;
+}
+
+table {
+    margin: 2rem auto;
+    border-collapse: collapse;
+}
+
+table input {
+    color: red;
+    text-decoration: none;
+}
+
+table, th, td {
+	border: 1px solid gray;
+}
+
+th {
+	background-color: darkgray;
+	font-style: bold;
+	padding: 10px;
+}
+
+tr:nth-child(even) {
+	background-color: lightgray;
+}
+
+td {
+	padding: 5px;
+}
+
+#add {
+	background-color: lightgray;
+	border: 0;
+	padding: 10px;
+	font-size: 12px;
+}
